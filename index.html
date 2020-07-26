@@ -1,0 +1,37 @@
+<!DOCTYPE hmtl>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+	</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="https://sourcecodester.com">Sourcecodester</a>
+</a>		</div>
+	</nav>
+	<div class="col-md-3"></div>
+	<div class="col-md-6 well">
+		<h3 class="text-primary">Simple Comment System Using JavaScript</h3>
+		<hr style="border-top:1px dotted #ccc;"/>
+		<div class="col-md-8">
+			<div class="alert alert-info">Comments</div>
+			<div id="result"></div>
+		</div>
+		<div class="col-md-4">
+			<form>
+				<div class="form-group">
+					<label>Name</label>
+					<input type="text" id="name" class="form-control" />
+				</div>
+				<div class="form-group">
+					<label>Comment</label>
+					<textarea id="comment" class="form-control" style="resize:none; height:150px;"></textarea>
+				</div>
+				<center><button type="button" class="btn btn-primary" onclick="postComment();">Send</button></center>
+			</form>
+		</div>
+	</div>
+<script src="js/script.js"></script>	
+</body>	
+</html>
